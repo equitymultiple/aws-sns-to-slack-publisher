@@ -19,7 +19,7 @@ Resources:
     Type: 'AWS::Serverless::Function'
     Properties:
       Handler: handlers/aws_sns_to_slack_publisher.handler
-      Runtime: python3.6
+      Runtime: python3.11
       Description: Publish message from SNS to Slack
       MemorySize: 128
       Timeout: 60
